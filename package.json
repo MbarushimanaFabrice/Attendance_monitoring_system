@@ -1,0 +1,20 @@
+{
+  "name": "attendance-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api.js && node src/server.js",
+    "dev": "node api.js && node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0",
+    "sql.js": "^1.14.1"
+  }
+}
